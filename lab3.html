@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет сайту з Float та Flex</title>
+    <link rel="stylesheet" href="style_lab3.css">
+</head>
+<body>
+
+    <h2 class="task-title"> Верстка за допомогою технології Float</h2>
+    
+    <div class="wrapper">
+        <header class="block header-img">
+            <span>Img.</span>
+        </header>
+
+        <!-- Ряд на базі Float -->
+        <main class="float-row clearfix">
+            <section class="content-left">
+                <span>Text</span>
+            </section>
+            <section class="content-right">
+                <span>Text</span>
+            </section>
+        </main>
+
+        <footer class="block footer-img">
+            <span>Img.</span>
+        </footer>
+    </div>
+
+
+    <h2 class="task-title">Верстка за допомогою технології Flexbox</h2>
+
+    <div class="wrapper">
+        <header class="block header-img flex-center">
+            Img.
+        </header>
+
+        <main class="flex-row">
+            <section class="content-left flex-center">
+                Text
+            </section>
+            <section class="content-right flex-center">
+                Text
+            </section>
+        </main>
+
+        <footer class="block footer-img flex-center">
+            Img.
+        </footer>
+    </div>
+
+</body>
+</html>
